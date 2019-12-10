@@ -13,7 +13,6 @@ a {
   text-decoration: none;
   font-family: 'Source Code Pro', monospace;
   font-size: 16px;
-  text-transform: uppercase;
   font-weight: bold; }
 
 .container {
@@ -179,6 +178,9 @@ section {
   opacity: 0;
   content: "|";
   animation: blink .8s infinite; }
+
+.hover.hover__underline:hover {
+  text-decoration: underline; }
 
 @keyframes blink {
   0% {
